@@ -1,0 +1,222 @@
+ul,ul li {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    }
+    
+    h1,h2,h3,p,form {
+    margin:0;
+    padding:5px;
+    }
+    
+    img {
+    border:none;
+    margin: 1em;
+    width: 1000px;
+    }
+    .articulo img {
+
+      margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    }
+    
+    #contenedor { 
+    max-width:1000px;
+    margin:0 auto;
+    }
+
+    #cabecera {
+      background-color: #C0C0C0;
+     justify-content: space-between; 
+      align-items: center;
+    }
+
+    #logo {
+      align-items: center;
+      text-align: center;
+      margin-left: 270px;
+      display:flex;
+      justify-content: center;
+    }
+    #logo img {  
+      width: 20px;               /* Ajusta el tamaño del logo (ancho) */
+      height: auto;              /* Mantiene las proporciones originales del logo */
+      border-radius: 50%;        /* Hace el logo redondeado (si es cuadrado) */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);  /* Agrega una sombra sutil al logo */
+      transition: transform 0.3s ease;  /* Añade transición para efecto de hover */
+    }
+    #logo img:hover {
+      transform: scale(1.4);     /* Aumenta el tamaño del logo al pasar el ratón */
+    }
+    #logo h1:hover{
+      transform: scale(1.2);}
+    
+    #buscador {
+      display:flex;
+      background-color: #C0C0C0;
+      text-align: right;
+  }
+  .fechahoy {
+    text-align: left;
+    font-size: 12px;
+    margin-left: -250px;
+    font-weight: normal;
+    margin-top: -15px;
+
+  }
+
+
+  .espacios {letter-spacing: 100px;
+  margin-right: 175px;}
+
+    #cabecera,
+    #menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie {
+    border:2px solid #777;
+
+    }
+    
+    #lateral {
+    float:left;
+    width:20%;
+    }
+    
+    #contenido {
+    float:right;
+    width:77%;
+    }
+    
+    #contenido #principal {
+    float:left;
+    width:73%;
+    }
+    
+    #contenido #secundario {
+    float:right;
+    width:20%;
+    }
+    
+    #menu ul#menu_principal li  {
+      text-decoration: none; /* Elimina el subrayado de los enlaces */
+      padding: 10px 35px;    /* Espaciado interno de los enlaces */
+      display: inline;    
+      font-size: 17px;
+    }
+    #menu a {
+      text-decoration: none;
+      color:black;
+    }
+    
+    #contenido #principal .articulo img {
+    width:300px;
+    float:left;
+    }
+
+    .articulo h2 a {
+      text-decoration: none;
+      color: black;
+    }
+
+    #secundario h2 a {
+      text-decoration: none;
+      color: black;
+    }
+    .clear,#cabecera,#menu,#pie {
+    clear:both;
+    }
+    
+    #cabecera, #logo .enlaces {
+      display: flex;          /* Activamos Flexbox para estos contenedores */
+      justify-content: flex-start;
+    }
+
+    #pie .enlaces {
+      display: flex;            /* Activamos Flexbox */
+    gap: 30px;  
+
+    }
+    .enlaces  a {
+      text-decoration: none;
+    color:black;  
+    }
+    #cabecera #buscador, pie .copyright {
+   display: flex;
+   justify-content: flex-end;
+    }
+
+    a{
+      color: blue;
+    }
+
+  #pie b {
+    margin-left: 150px; /* Opcional: Agregar margen izquierdo al <b> si es necesario */
+    text-decoration: none;
+    font-weight: normal;
+  }
+    #deportes{
+      margin-top: 1em;
+    }
+
+    #cultura{
+      margin-top: 1em;
+    }
+    #tecnologia{
+      margin-top: 1em;
+    }
+    
+    #editorial{
+      margin-top: 1em;
+    }
+    #clima{
+      margin-top: 1em;
+    }
+    #cabecera,
+    {
+      clear: both;
+      padding: 40px;
+    }
+    #menu{
+      clear: both;
+      padding: .5em;
+      margin-bottom: .5em;
+    }
+    #pie{
+       clear: both;
+        padding:.5em 2em .5em 2em;
+        margin-top:1em;
+    }
+    
+    .articulo{
+      margin: 1em;
+    }
+    #publicidad{
+      margin-top:1em;
+    }
+    #noticias, #publicidad, #principal, #secundario{
+       padding: 0.5em; 
+    }
+ 
+    #noticias a {
+      font-size: 15px;
+      text-decoration: none; 
+      color: black;
+      font-weight: normal;
+    }
+    #noticias h3 {
+      font-size: 15px;
+    }
+    #noticias h2 a {
+      font-weight: bold;
+    }
+    #deportes h2 a {
+      text-decoration: none;
+      color: black;
+    }
+    #cultura h2 a {
+      text-decoration: none;
+      color: black;
+    }
+    #tecnologia h2 a {
+      text-decoration: none;
+      color: black;
+    }
+
+
